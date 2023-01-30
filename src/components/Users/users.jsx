@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Card } from "../UI/card/card"
 
+
 export const Users = () => {
   const [users, setUsers] = useState([]);
   useEffect(() => {
@@ -23,6 +24,7 @@ export const Users = () => {
         ))}
     </Items>
     </Card>
+
   );
 };
 const Items = styled.ul`
